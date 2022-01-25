@@ -1,25 +1,40 @@
 # Netflix-Movies-and-TV-shows-clustering
-<p align="center"> 
-  <img src="Images/netflix-logo-png-2574.png" alt="netflix-logo-png-2574.png" width="80px" height="80px">
-</p>
-<h1 align="center"> Netflix Movies And TV Shows Clustering </h1>
-<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
+This dataset consists of tv shows and movies available on Netflix as of 2019. The dataset is collected from Flixable which is a third-party Netflix search engine.
 
-<p align="center"> 
-<img src="Images/05cItXL96l4LE9n02WfDR0h-6.png" alt="05cItXL96l4LE9n02WfDR0h-6.png" height="382px">
-</p>
+In 2018, they released an interesting report which shows that the number of TV shows on Netflix has nearly tripled since 2010. The streaming service’s number of movies has decreased by more than 2,000 titles since 2010, while its number of TV shows has nearly tripled. It will be interesting to explore what all other insights can be obtained from the same dataset.
 
-<p>We have clustered Netflix Movies And TV Shows Data with K-Means Clustring and built a recommender system in Google Colab which recommends 5 movies based on input movie using cosin similarity.</p>
+Integrating this dataset with other external datasets such as IMDB ratings, rotten tomatoes can also provide many interesting findings.
 
-<h2> :floppy_disk: Project Files Description</h2>
+# In this project, you are required to do
+Exploratory Data Analysis
 
-<p>This Project includes 1 colab notebook, 1 technical documentation as well as 1 presentation:</p>
-<h4>Executable Files:</h4>
-<ul>
-  <li><b>TEAM_REALITY_NETFLIX_MOVIES_AND_TV_SHOWS_CLUSTERING.ipynb</b> - Includes all functions required for classification operations.</li>
-</ul>
+Understanding what type content is available in different countries
 
-<h4>Output:</h4>
-<ul>
-  <li><b>Google Colab</b> - All the outputs are visible in the provided colab notebook.
-</ul>
+Is Netflix has increasingly focusing on TV rather than movies in recent years.
+
+Clustering similar content by matching text-based features
+
+Attributes
+show_id : Unique ID for every Movie / Tv Show
+
+type : Identifier - A Movie or TV Show
+
+title : Title of the Movie / Tv Show
+
+director : Director of the Movie
+
+cast : Actors involved in the movie / show
+
+country : Country where the movie / show was produced
+
+date_added : Date it was added on Netflix
+
+release_year : Actual Releaseyear of the movie / show
+
+rating : TV Rating of the movie / show
+
+duration : Total Duration - in minutes or number of seasons
+
+listed_in : Genere
+
+description: The Summary description
