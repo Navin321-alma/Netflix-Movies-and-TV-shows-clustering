@@ -14,7 +14,8 @@ Is Netflix has increasingly focusing on TV rather than movies in recent years.
 
 Clustering similar content by matching text-based features
 
-Attributes
+#Attributes
+
 show_id : Unique ID for every Movie / Tv Show
 
 type : Identifier - A Movie or TV Show
